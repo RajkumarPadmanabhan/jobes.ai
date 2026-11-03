@@ -1,0 +1,9 @@
+{
+  "name": "jobes.ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/mail.test.js",
+    "mail": "node server/mail.mjs"
+  }
+}
